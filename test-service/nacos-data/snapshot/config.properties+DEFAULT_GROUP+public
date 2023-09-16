@@ -1,0 +1,24 @@
+requests=700
+iterations=5
+service.selectionIntervalInSeconds=60
+service.randomThreshold=0.9
+service.scoreThreshold=0.5
+successRate.default=1.0
+successRate.bing=0.1
+successRate.seekingAlpha=0.9
+successRate.news=0.9
+
+# Bing API configurations
+service.bing.capacityPerMinute=10
+service.bing.cost=1.5
+service.bing.qualityOfData=0.9
+
+# News API configurations
+service.news.capacityPerMinute=14
+service.news.cost=2.0
+service.news.qualityOfData=0.8
+
+# SeekingAlpha API configurations
+service.seekingAlpha.capacityPerMinute=5
+service.seekingAlpha.cost=0.1
+service.seekingAlpha.qualityOfData=0.85
